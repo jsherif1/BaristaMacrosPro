@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="macro, calculator,coffee, beverages,coffee-shops, starbucks, tim hortons, dunkin donuts, latte, americano, flat-white, cold brew, iced-coffee, fitness, ITFYM, myfitnesspal">
+    <meta name="description"
+        content="calculate macros for popular drinks and customized drinks at coffee shop chains.">
+    <meta name="author" content="John Sheriff">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Barista Macros Pro</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <section class="nav-container">
+                    <img src="images/logo.png" alt="logo" class="nav-logo">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="drinkbuilder.html">Drink Builder</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                    <section class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </section>
+            </nav>
+        </header>
+
+        <section class="drink-builder-card">
+            <h2>Build Your Drink</h2>
+
+            <section class="options-container">
+                <section class="option">
+                    <label for="drink-type">Drink Type:</label>
+                    <select id="drink-type">
+                        <option value="latte">Latte</option>
+                        <option value="americano">Americano</option>
+                        <option value="cold-brew">Cold Brew</option>
+                        <option value="iced-coffee">Iced Coffee</option>
+                        <option value="cappuccino">Cappuccino</option>
+                    </select>
+                </section>
+
+                <section class="option">
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="small">Small (12oz)</option>
+                        <option value="medium">Medium (16oz)</option>
+                        <option value="large">Large (20oz)</option>
+                    </select>
+                </section>
+
+                <section class="option">
+                    <label for="milk">Milk:</label>
+                    <select id="milk">
+                        <option value="none">None</option>
+                        <option value="2%">2%</option>
+                        <option value="nonfat">Nonfat</option>
+                        <option value="whole">Whole</option>
+                        <option value="oat">Oat</option>
+                        <option value="almond">Almond</option>
+                        <option value="coconut">Coconut</option>
+                        <option value="soy">Soy</option>
+                    </select>
+                </section>
+
+                <section class="option">
+                    <label for="syrup">Syrup:</label>
+                    <select id="syrup">
+                        <option value="none">None</option>
+                        <option value="vanilla">Vanilla</option>
+                        <option value="caramel">Caramel</option>
+                        <option value="mocha">Mocha</option>
+                        <option value="cinnamon-dolce">Cinnamon Dolce</option>
+                        <option value="hazelnut">Hazelnut</option>
+                        <option value="toffee-nut">Toffee Nut</option>
+                        <option value="sugar-free-vanilla">Sugar-Free Vanilla</option>
+                    </select>
+                </section>
+            </section>
+
+            <button id="calculate-button">Calculate Macros</button>
+            <section class="macros-section">
+                <h3>Macronutrients</h3>
+                <p>Fats: <span id="fats">0</span>g</p>
+                <p>Carbs: <span id="carbs">0</span>g</p>
+                <p>Protein: <span id="protein">0</span>g</p>
+            </section>
+        </section>
+
+        <script src="script.js"></script>
+
+    </main>
+    <footer>
+        <section class="footer-container">
+            <section class="footer-section">
+                <h3>About BaristaMacrosPro</h3>
+                <p>Helping you make informed choices about your favorite coffee creations.</p>
+            </section>
+            <section class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="drinkbuilder.html">Drink Builder</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="images/fb_icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/x_icon.png" alt="X (AKA Twitter)"></a></li>
+                    <li><a href="#"><img src="images/insta_icon.png" alt="Instagram"></a></li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <p>&copy; 2023 BaristaMacrosPro. All rights reserved.</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

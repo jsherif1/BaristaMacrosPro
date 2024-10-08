@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="macro, calculator,coffee, beverages,coffee-shops, starbucks, tim hortons, dunkin donuts, latte, americano, flat-white, cold brew, iced-coffee, fitness, ITFYM, myfitnesspal">
+    <meta name="description" content="calculate macros for popular drinks and customized drinks at coffee shop chains.">
+    <meta name="author" content="John Sheriff">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Barista Macros Pro</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <section class="nav-container">
+                    <img src="images/logo.png" alt="logo" class="nav-logo">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="drinkbuilder.html">Drink Builder</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                    <section class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </section>
+            </nav>
+        </header>
+        <section class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have a question, suggestion, or feedback? We'd love to hear from you!</p>
+
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <span class="error-message" id="name-error"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+
+                <label for="message">Message:</label>
+
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="error-message" id="message-error"></span>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <script src="script.js"></script>
+
+    </main>
+    <footer>
+        <section class="footer-container">
+            <section class="footer-section">
+                <h3>About BaristaMacrosPro</h3>
+                <p>Helping you make informed choices about your favorite coffee creations.</p>
+            </section>
+            <section class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="drinkbuilder.html">Drink Builder</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="images/fb_icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/x_icon.png" alt="X (AKA Twitter)"></a></li>
+                    <li><a href="#"><img src="images/insta_icon.png" alt="Instagram"></a></li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <p>&copy; 2023 BaristaMacrosPro. All rights reserved.</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
